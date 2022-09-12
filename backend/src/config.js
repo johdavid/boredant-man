@@ -7,7 +7,7 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "CRYPTOANTS";
+const namePrefix = "CRYPTOANTS BLOCKART";
 const description = "CRYPTOANT random generated block art collectables of 2222 NFTs on the ploygon blockchain, hosting exclusive event live on the blockchain, each collection unqiue and special with upcomingn value on NFT world. participate on all exclusive event, giveaway, and cashback offer on our community by becoming part of CRYPTOANT holder. ";
 const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
 
@@ -50,13 +50,13 @@ const LIMIT = 3; // Your API key rate limit
 const CHAIN = 'polygon'; // only rinkeby, polygon, or ethereum
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
-const CONTRACT_NAME = 'CRYPTOANTS';
-const CONTRACT_SYMBOL = 'CAN';
+const CONTRACT_NAME = 'CRYPTOANTS BLOCK-ART';
+const CONTRACT_SYMBOL = 'CA';
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0xb2a5d4467280cd5425A57D2edc7dD8966b0f335c';
 const TREASURY_ADDRESS = '0xb2a5d4467280cd5425A57D2edc7dD8966b0f335c';
-const MAX_SUPPLY = 3000; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
-const MINT_PRICE = 0.2; // Minting price per NFT. Rinkeby = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const MAX_SUPPLY = 2240; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
+const MINT_PRICE = 5; // Minting price per NFT. Rinkeby = ETH, Ethereum = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 10; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
